@@ -1,0 +1,35 @@
+{
+  "name": "gescon360-auth-mail",
+  "version": "1.0.0",
+  "description": "Sistema de autenticación seguro con Supabase para GESCON 360",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@supabase/supabase-js": "^2.38.0",
+    "axios": "^1.5.0",
+    "pinia": "^2.1.6",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.5.0",
+    "eslint": "^8.51.0",
+    "@eslint/js": "^8.51.0",
+    "eslint-plugin-vue": "^9.17.0"
+  },
+  "keywords": [
+    "authentication",
+    "supabase",
+    "gescon360",
+    "access-control",
+    "email-domain-validation"
+  ],
+  "author": "GESCON 360",
+  "license": "MIT"
+}
